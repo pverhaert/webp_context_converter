@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#06B6D4" />
+    </linearGradient>
+    <linearGradient id="badge" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Background rounded card -->
+  <rect x="20" y="20" width="216" height="216" rx="44" fill="url(#bg)" filter="url(#shadow)"/>
+
+  <!-- Image frame / photo symbol -->
+  <rect x="52" y="52" width="152" height="108" rx="16" fill="#FFFFFF" fill-opacity="0.95"/>
+  <circle cx="86" cy="86" r="14" fill="#F59E0B"/>
+  <path d="M52 142 L94 98 L130 134 L154 110 L204 150 L204 144 C204 152.8 196.8 160 188 160 L68 160 C59.2 160 52 152.8 52 144 Z" fill="#3B82F6" fill-opacity="0.85"/>
+
+  <!-- WEBP pill badge -->
+  <rect x="52" y="172" width="152" height="48" rx="14" fill="url(#badge)" filter="url(#shadow)"/>
+  <text x="128" y="205" font-family="Segoe UI, Arial, sans-serif" font-weight="900" font-size="26" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">WEBP</text>
+</svg>
